@@ -58,17 +58,32 @@ Pagos posteriores verificados: 242_12659 (04/02/2026), 242-12658 (10/02/2026), 2
 | Factura 25DT11000005 — Siniestros Int. noviembre 2025 (30/11/2025) | 158,40 € |
 | **Total** | **592,27 €** |
 
-## 5. Partidas conciliatorias frente a las cifras del auditor
+## 5. Conciliación con la carta del auditor
 
-- **Siniestros de diciembre 2025 facturados en enero 2026** (26DT01000003 y 26DT01000004, total 425,73 €): en nuestros libros son ejercicio 2026; MULTICENTRO podría tenerlos provisionados en 2025.
-- **Neteo cliente/proveedor**: MULTICENTRO nos circulariza como cliente suyo; su saldo puede venir bruto (181.562,56 €) o neto de nuestros abonos (180.970,29 €).
-- **Facturación IVA incluido vs. base imponible**: su cifra de facturación puede referirse a la base (588.183,57 €) o al total (711.677,86 €).
-- Las cifras exactas de la carta del auditor (PDF `Clientes MULTICENTRO 2025_5_DIVAIN TEAM.pdf`) están pendientes de contrastar con este cuadro.
+Cifras de la carta de circularización (PDF `Clientes MULTICENTRO 2025_5_DIVAIN TEAM.pdf`):
+
+| Concepto | Según MULTICENTRO | Según DIVAIN (Holded) | Diferencia |
+|---|---:|---:|---:|
+| Facturación 2025 con IVA | 711.677,86 € | 711.677,86 € | **0,00 € ✓** |
+| Saldo a su favor a 31/12/2025 | 181.128,53 € | 181.562,56 € (cta. 410) | **434,03 €** |
+
+**Explicación de la diferencia de saldo (434,03 €):**
+
+| Partida | Importe |
+|---|---:|
+| Abono siniestros 25DT07000001 (15/07/2025, Siniestros Int. junio) — ya deducido por MULTICENTRO, pendiente de compensar en nuestra 430 | 335,04 € |
+| Abono siniestros 25DT07000002 (15/07/2025, Siniestros Nac. junio) — ídem | 98,83 € |
+| Diferencia menor no identificada (redondeos) | 0,16 € |
+| **Total** | **434,03 €** |
+
+Nota: el abono de noviembre 25DT11000005 (158,40 €) no aparece deducido en su saldo — coherente con que a 31/12/2025 aún no lo hubieran registrado. Los siniestros de diciembre (425,73 €) se facturaron en enero 2026.
+
+**Conclusión:** conformidad con la facturación; en el saldo, diferencia inmaterial de 434,03 € plenamente identificada (433,87 € por abonos de siniestros de julio pendientes de compensar en nuestros libros + 0,16 € de redondeo).
 
 ## 6. Próximos pasos
 
 - [x] Extraer datos de Holded y cuadrar composición de saldos.
-- [ ] Contrastar con las cifras del PDF del auditor.
+- [x] Contrastar con las cifras del PDF del auditor — diferencia de 434,03 € identificada.
 - [ ] Validar internamente (Luis/Montse) antes de contestar — la respuesta va a un auditor externo.
 - [ ] Enviar respuesta a EUDITA respondiendo al correo del 22/07/2026 (borrador preparado en Gmail).
 
